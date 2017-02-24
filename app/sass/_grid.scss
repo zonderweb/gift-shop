@@ -11,7 +11,10 @@ $susy: (
 
 // Grid (сетка)
 
-.main-wrapper {
+.main-wrapper,
+.header-top,
+.header-midle,
+.header-bottom {
   @include container();
 	//outline: 1px solid red;
 }

@@ -5,12 +5,17 @@ $icon-font: "FontAwesome";
 
 // Colors
 
-$b-price: #323232;
+$b-price:   #323232;
 $b-price-l: #434343;
-$b-slider: #3c3c3c;
+$b-slider:  #3c3c3c;
+
+$red:       #f0626e;
+$blue:      #05aecc;
+$b-blue:    #00a1be;
+$grey:      #f6f6f6;
 
 
-// Mixin
+// MIXIN
 
 // Classic clearfix
 @mixin cf {

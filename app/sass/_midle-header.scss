@@ -1,0 +1,50 @@
+.header-midle {}
+.middle-menu__wrapper {
+  @include cf;
+  background: $grey;
+}
+
+.logo-wrapper {
+  float: left;
+  background: #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.logo-link {
+  display: block;
+}
+
+.logo-pic {
+  background: #fff;
+}
+
+.middle-menu {
+  float: right;
+}
+
+.middle-menu__list {
+  margin: 0;
+  padding: 0;
+}
+
+.middle-menu__item {
+  list-style: none;
+  @include inlineblock;
+  margin-left: 3px;
+  position: relative;
+}
+
+.middle-menu__link {
+  padding: 44px 25px;
+  display: block;
+  color: #fff;
+}
+
+.label--blue {
+  background: $red;
+}
+
+.label--red {
+  background: $blue;
+}
