@@ -1,0 +1,25 @@
+.header-top {}
+
+.top-menu {
+  float: right;
+}
+
+.top-menu__list {
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu__item {
+  list-style: none;
+  @include inlineblock;
+  margin-left: rem(26px);
+}
+
+
+.top-menu__link {
+  color: $b-price;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

@@ -4,7 +4,7 @@
 @import "vars";
 @import "app/libs/susy/sass/susy"; //Susy
 @import "grid";
-@import "header";
+@import "top-header";
 
 *::-webkit-input-placeholder {
 	color: #666;
@@ -43,6 +43,10 @@ body {
 	line-height: 1.75;
 	font-family: $default-font;
 	overflow-x: hidden;
+}
+
+a {
+	text-decoration: none;
 }
 
 .img-responsive {
