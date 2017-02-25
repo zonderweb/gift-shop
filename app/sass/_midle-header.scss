@@ -1,4 +1,6 @@
-.header-midle {}
+.header-midle {
+  margin-bottom: 15px;
+}
 .middle-menu__wrapper {
   @include cf;
   background: $grey;
@@ -32,7 +34,7 @@
   list-style: none;
   @include inlineblock;
   margin-left: 3px;
-  position: relative;
+  // position: relative;
 }
 
 .middle-menu__link {
@@ -47,4 +49,16 @@
 
 .label--red {
   background: $blue;
+}
+
+.middle-menu__title,
+.middle-menu__icon {
+  @include inlineblock;
+}
+
+.middle-menu__title {}
+
+.middle-menu__icon {
+  font-size: 0;
+  margin-left: rem(8px);
 }

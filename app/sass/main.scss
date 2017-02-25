@@ -27,6 +27,10 @@
 	opacity: 1;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
 	color: #666;
