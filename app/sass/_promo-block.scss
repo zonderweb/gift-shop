@@ -1,0 +1,35 @@
+.promo-top {
+  line-height: 0;
+}
+.promo-item {
+  float: left;
+  width: 57.2649%;
+  margin-right: 0.4273%;
+}
+
+
+.promo-img__big,
+.promo-img__small {
+  width: 100%;
+}
+
+.promoname__title {
+  font-family: $title-font;
+}
+
+.promoname__link {
+  color: $red;
+  text-transform: uppercase;
+  font-size: rem(52px);
+}
+
+
+// Short
+.promo-item__short {
+  float: left;
+  width: 42.3076%;
+}
+
+.promo-item__short--top {
+  margin-bottom: 5px;
+}

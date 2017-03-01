@@ -14,7 +14,9 @@ $susy: (
 .main-wrapper,
 .header-top,
 .header-midle,
-.header-bottom {
+.header-bottom,
+.promo-top,
+.promo-bottom {
   @include container();
 	//outline: 1px solid red;
 }

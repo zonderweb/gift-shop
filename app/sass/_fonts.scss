@@ -5,3 +5,6 @@
 
 @include font-face("lato", "../fonts/LatoRegular/Lato-Regular", $file-formats: eot woff ttf);
 @include font-face("lato", "../fonts/LatoBold/Lato-Bold", bold, $file-formats: eot woff ttf);
+
+@include font-face("Robotoslab", "../fonts/RobotoSlabRegular/RobotoSlab-Regular", $file-formats: eot woff ttf svg);
+@include font-face("Robotoslab", "../fonts/RobotoSlabBold/RobotoSlab-Bold", bold, $file-formats: eot woff ttf svg);
