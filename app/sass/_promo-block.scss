@@ -45,6 +45,7 @@
 
 .promoname__title {
   font-family: $title-font;
+  font-weight: normal;
   margin: 0 0 5px 0;
 }
 
@@ -85,9 +86,30 @@
 
 .promo-item__short--top {
   margin-bottom: 5px;
+  position: relative;
 }
 
 .promo-item__short--top,
 .promo-item__short--bottom {
   background: $blur;
+}
+
+.promotitle__short {
+  text-align: left;
+  padding: 15px rem(15px);
+  width: 54.1414%;
+  bottom: 10px;
+}
+
+.promoname__title--small {
+  font-weight: normal;
+}
+
+.promoname__link--small {
+  font-size: rem(26px);
+  line-height: rem(26px);
+}
+
+.promo-text--small {
+  font-size: rem(12px);
 }
