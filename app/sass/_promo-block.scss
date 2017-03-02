@@ -1,5 +1,5 @@
 .promo-top {
-  line-height: 0;
+  line-height: 1;
 }
 .promo-item {
   float: left;
@@ -112,4 +112,68 @@
 
 .promo-text--small {
   font-size: rem(12px);
+}
+
+
+// Small price
+
+.promo-item__short--bottom {
+  position: relative;
+}
+
+.promo-img__small {}
+
+.promoblock {
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+  color: #fff;
+  font-size: 0;
+  height: 55px;
+  min-width: 58.9898%;
+}
+.promoblock__name,
+.promoblock__gift,
+.promoblock__addcart,
+.promoblock__price {
+  @include inlineblock;
+}
+
+.promoblock__name {
+  background: $light-blue;
+  font-size: rem(16px);
+  padding: 20px rem(10px);
+}
+
+.promoblock__text {}
+
+.promoblock__gift {
+  background: $b-blue;
+}
+
+.promoblock__link {
+  display: block;
+  padding: 15px rem(15px) 16px rem(15px);
+}
+
+.img-gift__small {}
+
+.promoblock__addcart {
+  background: $red;
+}
+
+.addcart__link {
+  display: block;
+  padding: 16px rem(15px);
+}
+
+.img-addcart__small {}
+
+.promoblock__price {
+  background: $b-price;
+  padding: 17px rem(15px);
+}
+
+.price__cost {
+  font-size: rem(22px);
 }
